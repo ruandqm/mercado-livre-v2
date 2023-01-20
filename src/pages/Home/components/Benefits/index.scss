@@ -1,0 +1,19 @@
+.beneficios {
+    height: 5em;
+    background-color: #fff;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5em;
+
+    article {
+        margin: 1.5em;
+    }
+
+    .divisao {
+        width: 0.1em;
+        height: 5em;
+        background-color: #000;
+    }
+}

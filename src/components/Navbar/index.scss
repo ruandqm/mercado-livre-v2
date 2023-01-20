@@ -1,0 +1,25 @@
+.mainHeader {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 100%;
+
+    .searchBar {
+        margin: 1em auto;
+    }
+
+    nav {
+        border-top: 0.2em solid #000;
+        border-bottom: 0.2em solid #000;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+
+            li {
+                margin: 1em;
+            }
+        }
+    }
+}
