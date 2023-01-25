@@ -7,12 +7,11 @@ export const Navbar = () => {
             <div className="searchBar">
                 <input type="text" />
             </div>
-            <nav>
+            <nav className='d-flex justify-content-center'>
                 <ul>
-                    <li>Categorias</li>
-                    <li>Ofertas do Dia</li>
-                    <li>Histórico</li>
-                    <li>Moda</li>
+                    {/* <Link to='/cadastro'><li>Cadastro</li></Link> */}
+                    <li><a href="/">Produtos</a></li>
+                    <li><a href="/Cadastro">Cadastro</a></li>
                 </ul>
             </nav>
         </header>
