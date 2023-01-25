@@ -3,7 +3,7 @@ import './index.scss'
 
 export const Benefits = () => {
     return (
-        <section className="beneficios">
+        <section className="beneficios mt-3">
             <article className="pagamento">
                 Pagamento rápido e seguro<br />Com cartão
             </article>

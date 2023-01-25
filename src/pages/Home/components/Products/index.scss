@@ -11,6 +11,8 @@
         margin: 2em;
         width: 15vw;
         display: flex;
-        justify-content: center
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
     }
 }
