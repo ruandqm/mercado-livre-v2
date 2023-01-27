@@ -7,3 +7,10 @@ export interface IformInput {
     category?: string
     img?: string
 }
+export interface IformInputValidate {
+    name?: string
+    brand?: string
+    price?: string
+    category?: string
+    img?: string
+}

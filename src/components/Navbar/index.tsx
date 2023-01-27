@@ -12,6 +12,7 @@ export const Navbar = () => {
                     {/* <Link to='/cadastro'><li>Cadastro</li></Link> */}
                     <li><a href="/">Produtos</a></li>
                     <li><a href="/Cadastro">Cadastro</a></li>
+                    <li><a href="/FormikCadastro">Cadastro Formik</a></li>
                 </ul>
             </nav>
         </header>
