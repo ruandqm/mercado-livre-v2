@@ -8,16 +8,15 @@ import './index.scss'
 
 export const Home = () => {
     const [filterOption, setFilterOption] = useState()
+    const [search, setSearch] = useState()
     return (
         <div className="home">
-            <Navbar />
-            <div className="container">
-                <FilterContext.Provider value={{ filterOption, setFilterOption }}>
-                    <Benefits />
-                    <Filter />
-                    <Products />
-                </FilterContext.Provider>
-            </div>
+            <FilterContext.Provider value={{ filterOption, setFilterOption, search, setSearch }}>
+                <Navbar />
+                <Benefits />
+                <Filter />
+                <Products />
+            </FilterContext.Provider>
         </div>
 
     )
