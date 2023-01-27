@@ -46,7 +46,7 @@ export const Products = () => {
             {isGet && products.map((element, index) => {
                 return (
                     <article key={index} className="product" id="first">
-                        <img className='img-responsive' src={element.img} alt="celular" />
+                        <img className='img-responsive' src={element.img} alt="" />
                         <span>{element.name}</span>
                         <span>{element.brand}</span>
                         <span>R$ {element.price}</span>
