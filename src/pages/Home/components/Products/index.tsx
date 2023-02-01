@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './index.scss'
-import phoneImg from './img/iphone.jpg'
 import axios from 'axios'
 import FilterContext from '../../contexts/FilterContext'
 
